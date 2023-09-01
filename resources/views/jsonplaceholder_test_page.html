@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test JsonPlaceholder API</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body style="background-color: #f8f9fa;">
+
+<div class="container mt-5">
+    <div class="card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+        <div class="card-body" style="background-color: #ffffff;">
+            <h4 class="card-title">Test JsonPlaceholder API</h4>
+            
+            <h5 class="mt-4">Create Post</h5>
+            <form id="create-post">
+                <input type="text" id="title" class="form-control" placeholder="Title">
+                <input type="text" id="body" class="form-control mt-2" placeholder="Body">
+                <input type="number" id="userId" class="form-control mt-2" placeholder="User ID">
+                <button type="submit" class="btn btn-primary mt-2">Create</button>
+            </form>
+
+            <h5 class="mt-4">Update Post</h5>
+            <form id="update-post">
+                <input type="number" id="update-id" class="form-control" placeholder="Post ID">
+                <input type="text" id="update-title" class="form-control mt-2" placeholder="New Title">
+                <input type="text" id="update-body" class="form-control mt-2" placeholder="New Body">
+                <button type="submit" class="btn btn-warning mt-2">Update</button>
+            </form>
+
+            <h5 class="mt-4">Delete Post</h5>
+            <form id="delete-post">
+                <input type="number" id="delete-id" class="form-control" placeholder="Post ID">
+                <button type="submit" class="btn btn-danger mt-2">Delete</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Your JavaScript code for AJAX calls will go here
+</script>
+
+</body>
+</html>
